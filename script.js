@@ -1,0 +1,6 @@
+var apectoBtn = document.getElementById("aspecto");
+var mainElement = document.getElementById("container");
+
+aspectoBtn.addEventListener("click", function ()  {
+    mainElement.classList.toggle("dark");
+});
